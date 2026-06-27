@@ -2,6 +2,8 @@
 
 Windows desktop package for machines without NVIDIA CUDA.
 
+Source code: https://github.com/JHKS24/AutoCensoR
+
 ## Download
 
 Download `AutoCensoR_CPU_Only.zip` from GitHub Releases, extract it, then run:
