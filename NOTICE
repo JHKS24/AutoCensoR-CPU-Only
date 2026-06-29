@@ -1,11 +1,13 @@
-AutoCensor vNext
+AutoCensoR CPU Only
 
-This repository contains source code only. Model weights, private datasets,
-personal paths, account links, API keys, telemetry, and cloud-upload code are
-not included.
+This package contains the Windows CPU-only desktop runtime for AutoCensoR.
+Model weights, private datasets, personal paths, account links, API keys,
+telemetry, and cloud-upload code are not included.
 
-No fonts are bundled. Korean and English UI text is stored as UTF-8 and rendered
-with operating-system font fallbacks.
+Korean and English UI text is stored as UTF-8. The app uses operating-system
+font fallbacks for the interface. Some bundled third-party packages may include
+their own fonts or license files for their internal runtime needs.
 
-Runtime dependencies are installed separately and are not relicensed by this
-project. Review dependency licenses before shipping a bundled runtime.
+Runtime dependencies are bundled under the application `_internal` directory.
+Those dependencies are not relicensed by this project. Review the included
+package metadata and license files before redistributing this package.
